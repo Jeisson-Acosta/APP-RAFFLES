@@ -1,0 +1,8 @@
+### Obtener información inicial
+GET http://localhost:3000/raffles
+
+### Obtener información de una rifa
+GET http://localhost:3000/raffles/1
+
+### Obtener información de un participante
+GET http://localhost:3000/raffles/1/participants/1

@@ -1,0 +1,34 @@
+@font-face {
+  font-family: fontMain;
+  src: url("./fonts/Manrope/static/Manrope-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: fontTitles;
+  src: url("./fonts/Manrope/static/Manrope-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: fontSubtitles;
+  src: url("./fonts/Manrope/static/Manrope-SemiBold.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #101415;
+  color: #ffffff;
+  font-family: fontMain;
+}
+
+h1, h2, h3 {
+  font-family: fontTitles;
+}
+
+h4, h5, h6 {
+  font-family: fontSubtitles;
+}
