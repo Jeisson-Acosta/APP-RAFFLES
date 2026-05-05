@@ -13,7 +13,8 @@ app.use(cors({
   origin: (origin, callback) => {
     const ACCEPTED_ORIGINS = [
       "http://localhost:5173",
-      "https://ruffles-project.netlify.app"
+      "https://ruffles-project.netlify.app",
+      "https://jsondev.win"
     ]
 
     if (ACCEPTED_ORIGINS.includes(origin) || !origin) {

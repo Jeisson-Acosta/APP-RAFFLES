@@ -2,7 +2,7 @@ import { useResponseDB } from "../hooks/useResponseDB.js";
 import { useCallback } from "react";
 
 // const URL_BACKEND = "http://localhost:3000/";
-const URL_BACKEND = "http://45.55.176.40:3000/raffles"
+const URL_BACKEND = "https://jsondev.win/"
 
 export const useRequestDB = () => {
   const { setResponseDB, loading, setLoading, setError } = useResponseDB();
